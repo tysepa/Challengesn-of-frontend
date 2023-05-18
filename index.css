@@ -10,6 +10,12 @@ body{
     text-align: center;
     position: relative;
 }
+.home{
+    max-width: 190px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+}
 h1, h2{
     color: rgb(248, 11, 11);
     
@@ -29,4 +35,29 @@ h1, h2{
 }
 #save-Btn{
     background-color: darkgreen;
+}
+.home img{
+    width: 190px;
+    height: 220px;
+}
+.text-el{
+    text-align: left;
+
+}
+.btn-sh{
+    padding: 10px;
+    background: white;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.home p{
+    font-weight: 700;
+    color: black;
+}
+#error{
+    color: red;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
